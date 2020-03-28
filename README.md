@@ -1,6 +1,9 @@
 # bwaf_server_maintenance
-
-root@MSI:/mnt/d/src# python bwaf_server_maintenance.py http://bwaf99.eastus.cloudapp.azure.com:8000 admin PASSWORDREDACTED! 10.5.2.8 80 "Out of Service Maintenance"
+Should work with 2.7 and 3.X
+Tested on WSL ubuntu, with 2.7
+```
+root@MSI:/mnt/d/src#
+python bwaf_server_maintenance.py http://bwaf99.eastus.cloudapp.azure.com:8000 admin PASSWORDREDACTED! 10.5.2.8 80 "Out of Service Maintenance"
 POST http://bwaf99.eastus.cloudapp.azure.com:8000/restapi/v3.1/login
 GET http://bwaf99.eastus.cloudapp.azure.com:8000/restapi/v3.1/services?parameters=name
 =================START SERVICE wordpress_service==========================
@@ -79,3 +82,4 @@ GET http://bwaf99.eastus.cloudapp.azure.com:8000/restapi/v3.1/services/dvwa/serv
 -----------------------------------end rule r2-------------------------------------
 =================END SERVICE dvwa==========================
 root@MSI:/mnt/d/src#
+```
