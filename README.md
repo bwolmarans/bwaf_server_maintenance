@@ -1,5 +1,16 @@
 # bwaf_server_maintenance
-Should work with 2.7 and 3.X
+
+Legal Notice:
+
+Anything in the "experimental" folder is unsupported code, use at your own risk, and do your own testing.
+It is not currently supported by Barracuda Networks.
+Not meant for production environments, use for dev/test and pre-production only.
+
+This is a python script used to take servers in and out of maitenance, or set their status in general.
+Status should match what you see in the GUI.
+
+Tested for 10.1 with python 2.7
+Should work for 2.7and 3.X
 Tested on WSL ubuntu, with 2.7
 ```
 root@MSI:/mnt/d/src#
