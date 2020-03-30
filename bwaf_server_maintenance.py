@@ -1,5 +1,20 @@
 #!/usr/bin/python
-
+#
+# Barracuda Networks
+# Legal Notice 3/30/2020
+# ----------------------
+# Attention: this is unsupported code. use at your own risk.
+#
+# Any code/script/template/other in the "experimental" folder is unsupported code, use at your own risk, and do your own testing.
+# This will not be supported by Barracuda Networks, and is not for production or environments where downtime would cause an issue.
+# This is not meant for production environments, it is meant for use in dev/test and pre-production only.
+#
+# Content that is promoted out of the experimental folder will be considered supported.
+#
+# Content within the experimental folder is unsupported.
+#
+# (c) 2020 Barracuda Networks
+#
 import sys
 import requests
 import json
